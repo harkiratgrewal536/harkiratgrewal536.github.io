@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COMP125 - About</title>
+    <!-- CSS Section -->
+    <!-- CSS Section -->
+  <!--
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  -->
+  <link rel="stylesheet" href="./Content/bootstrap-cerulean.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./Content/about.css">
+</head>
+<body>
+    <!-- Main Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+          <img src="./Assets/images/Logo3.png" width="50" height="50" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html"><i class="fa fa-home fa-lg"></i> Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="./about.html"><i class="fa fa-info-circle fa-lg"></i> About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html"><i class="fa fa-comment fa-lg"></i> Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <!--My image-->
+      <!-- Trigger the Modal -->
+      <div id="caption">
+      <table id="table">
+        <tr>
+          <div id="img">
+        <td><img id="myImg" src="./Assets/images/myImage.jpeg" alt="Snow" style="width:100%;max-width:300px"></td>
+        <td><img id="myImg" src="./Assets/images/myImage2.jpeg" alt="Snow" style="width:100%;max-width:300px"></td>
+        </div>
+      </tr>
+      </table>          
+      </div>
+      <div class="zoom"></div>
+    </br></br>
+      <div id="myModal" class="modal">
+      
+        <span class="close">&times;</span>
+      
+        <img class="modal-content" id="img01">
+      
+        <div id="caption"></div>
+      </div>
+      <div id="jumbotron">
+        <br><br><br><br><br><br>
+      </div>
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+            <h1 class="display-4">Got to know me more</h1>
+            <p class="lead">Something about myself: </p>
+            <hr class="my-4">
+            <p id="paragraph" class="content"></p>
+            <p class="content">I am very aspired person and very passionate to learn new things. I have been always interested in doing work on my own and love to help others as much as possible.</p>
+            <p class="content">Things I love to do:</p>
+            <ul id="myFavouriteThings"></ul>
+          </div>
+
+          <!--copyright-->
+
+    <div class="jumbotron">
+      <p id="--copyright--">&copy;&nbsp; Harkirat Singh Grewal, 300987512</p>
+    </div>
+
+    <!-- 3rd Party Libraries -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- App Scripts -->
+    <script src="./Scripts/home.js"></script>
+    <script src="./Scripts/about.js"></script>
+    <script src="./Scripts/contact.js"></script>
+    <script src="./Scripts/app.js"></script>
+</body>
+</html>
